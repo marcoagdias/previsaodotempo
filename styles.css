@@ -34,6 +34,25 @@ body {
     width: calc(100% - 100px);
 }
 
+.sugestoes {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 250px;
+    max-height: 120px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.sugestoes div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.sugestoes div:hover {
+    background-color: #f0f0f0;
+}
+
 .botao-busca {
     border: none;
     outline: none;
