@@ -38,10 +38,11 @@ body {
     position: absolute;
     background-color: white;
     border: 1px solid #ccc;
-    width: 250px;
-    max-height: 120px;
+    width: 100%;
+    max-height: 150px;
     overflow-y: auto;
     z-index: 10;
+    border-radius: 4px;
 }
 
 .sugestoes div {
